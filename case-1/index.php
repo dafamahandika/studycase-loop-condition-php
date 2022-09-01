@@ -10,11 +10,11 @@
      <h1>Mencetak Bilangan</h1>
      <form action = "function.php" method = "post" autocomplete = "off">
           <label> Mulai dari :
-               <input type="text" name="start" required>
+               <input type="number" name="start" required>
           </label>
           <br>
           <label> Sampai :
-               <input type="text" name="finish" required>
+               <input type="number" name="finish" required>
           </label>
           <br>
           <button name = "cetak" >Cetak</button>
