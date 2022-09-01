@@ -26,9 +26,6 @@
 </html>
 
 <?php
-
-
-
 if(isset ($_POST['hitung'])) {
      $tb = $_REQUEST['tb'];
      $bb = $_REQUEST['bb'];
@@ -38,7 +35,5 @@ if(isset ($_POST['hitung'])) {
      $imt = $bb / ($tb**2);
 
      $hasil = number_format($imt, 1);
-     
-
 }
 ?>
